@@ -8,7 +8,7 @@ function piratize(input){
             if (isNaN(word)==false){
                 return word
             } else if (word == "pounds"){
-                word = "dubloons";
+                word = "doubloons";
                 return word; // if the word is pounds, replaces with dubloons
             } else { 
                 word = word.substr(1) + word.substr(0,1) + "arr";
